@@ -1,0 +1,10 @@
+<div class="todo-input-wrapper">
+  <input type="text" class="form-control" placeholder="Enter your checklist..." id="input-success2" [(ngModel)]="todoText" value={{todoText}} (keydown)="keyDownFunction($event)"/>
+  <!-- <input type="text" [(ngModel)]="todoText" value={{todoText}} /> -->
+  <button class="btn btn-success" style="margin-bottom: 20px;" type="submit" (click)="addTodo()">Submit</button>
+ 
+  <!-- <form (keydown)="keyDownFunction($event)">
+    <input type="text" /> 
+  </form -->
+
+</div>
